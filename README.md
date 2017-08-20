@@ -2,16 +2,16 @@
 
 This is my first try to use elasticsearch in rails.
 
-## Set up
-### Ruby on Rails
+### Set up
+#### Ruby on Rails
 Please install ruby and rails on your machine. Windows not recommended. My machine is ubuntu16.04, and I have install rails version 5.0.0.1.
 
-### Elasticsearch 
-### Pre: Install Java on your machine
+#### Elasticsearch 
+##### Pre: Install Java on your machine
   Since elasticsearch is written in Java, please install java and set Java environment variables if you haven't install it yet.
-#### step 1: Install elasticsearch
+##### step 1: Install elasticsearch
   Download elasticseach from [here](https://www.elastic.co/downloads/elasticsearch). Choose zip file and unzip it in your local directory.
-### step 2: Validate Installation
+##### step 2: Validate Installation
   Get into the directory, ``` cd elasticsearch-[version]```, and run ``` bin/elasticsearch ``` (```bin\elasticsearch.bat``` on windows). Open url: http://localhost:9200 or use curl ``` curl XGET 'http://localhost:9200' ``` THen, you should see the data like this:
   ```
   {
@@ -28,8 +28,8 @@ Please install ruby and rails on your machine. Windows not recommended. My machi
   "tagline" : "You Know, for Search"
 }
 ```
-## Basic Usage:
+### Basic Usage:
 Download it or git clone using ``` git clone https://github.com/diandians/elasticsearch-with-rails.git ```. start rails by ``` rails serve```; at the same time, open anther teminal tab, start elasticsearch by ``` bin/elasticsearch```. Then,you will get there!
 
-## Reference 
-I learned this from the [article](https://www.sitepoint.com/full-text-search-rails-elasticsearch/)
+### Reference 
+More information, please refer to the [article](https://www.sitepoint.com/full-text-search-rails-elasticsearch/)
