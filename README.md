@@ -32,4 +32,4 @@ Please install ruby and rails on your machine. Windows not recommended. My machi
 Download it or git clone using ``` git clone https://github.com/diandians/elasticsearch-with-rails.git ```. start rails by ``` rails serve```; at the same time, open anther teminal tab, start elasticsearch by ``` bin/elasticsearch```. Then,you will get there!
 
 ### Reference 
-More information, please refer to the [article](https://www.sitepoint.com/full-text-search-rails-elasticsearch/)
+More information, please refer to this [article](https://www.sitepoint.com/full-text-search-rails-elasticsearch/)
