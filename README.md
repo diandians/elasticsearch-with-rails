@@ -12,7 +12,7 @@ Please install ruby and rails on your machine. Windows not recommended. My machi
 #### step 1: Install elasticsearch
   Download elasticseach from [here](https://www.elastic.co/downloads/elasticsearch). Choose zip file and unzip it in your local directory.
 #### step 2: Validate Installation
-  Get into the directory, ``` cd elasticsearch-[version]```, and run ``` bin/elasticsearch ``` (```bin\elasticsearch.bat``` on windows). Open url: http://localhost:9200 or use curl ``` curl XGET 'http://localhost:9200' ``` THen, you should see the data like this:
+  Get into the directory, ``` cd elasticsearch-[version]```, and run ``` bin/elasticsearch ``` (```bin\elasticsearch.bat``` on windows). Open url: http://localhost:9200 or use curl ``` curl XGET 'http://localhost:9200' ``` Then, you should see something like this:
   ```
   {
   "name" : "T47Fnhf",
